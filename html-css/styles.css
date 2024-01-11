@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2.0;
+    background: #fff2ff;
+    flex-direction: column;
+}
+
+.main {
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(10, 20, 30, 1.0);
+    padding: 20px;
+    width: 600px;
+    height: 600px;
+}
+
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form .items {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 50px;
+}
+
+.items > label {
+    width: 200px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.items > input {
+    width:300px;
+}
+
+.items > select{
+    width: 51%;
+    height: auto;
+    
+}
+    
+
+.items .radio-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.items .radio-group span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.items .checkbox-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.items .checkbox-group span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
