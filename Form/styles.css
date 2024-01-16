@@ -4,7 +4,8 @@ body {
     justify-content: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 2.0;
-    background: #fff2ff;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(71,71,143,1) 55%, rgba(0,212,255,1) 100%);
     flex-direction: column;
 }
 
@@ -32,6 +33,7 @@ form .items {
     align-items: center;
     justify-content:flex-start;
     gap: 50px;
+    padding-bottom: 20px;
 }
 
 .items > label {
