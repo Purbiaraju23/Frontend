@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "chalk": "^5.3.0"
+  },
+  "type": "module",
+  "name": "nodejs_project",
+  "version": "1.0.0",
+  "description": "Logged project directory path in red color",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raju Purbia",
+  "license": "ISC"
+}
